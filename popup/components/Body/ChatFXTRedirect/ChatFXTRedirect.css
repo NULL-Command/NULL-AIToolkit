@@ -1,0 +1,89 @@
+.chatfxt-redirect {
+    width: 98%;
+    height: 315px;
+    background: rgb(0, 0, 0);
+    box-sizing: border-box;
+    margin: 3px;
+    border-radius: 10px;
+
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.chatfxt-redirect-btn:visited {
+    color: white;
+}
+
+.chatfxt-redirect-btn {
+    display: box;
+    position: relative;
+    width: 130px;
+    height: 130px;
+    background: linear-gradient(to bottom, rgb(0, 132, 255) 0%, rgb(9, 255, 0) 100%);
+    box-shadow: 0 0 15px rgb(1, 230, 50);
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    line-height: 130px;
+    font-size: 15px;
+}
+
+.chatfxt-redirect-btn:hover {
+    color: white;
+}
+
+.chatfxt-redirect-btn::before {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgb(9, 255, 0);
+    opacity: 0;
+    content: '';
+    animation: pulse 1s infinite;
+}
+
+.chatfxt-redirect-btn.is-clicked {
+    background: linear-gradient(to bottom, gray 0%, dimgray 100%);
+}
+
+.chatfxt-redirect-btn.is-clicked:before {
+    animation: blastOut 1s;
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1);
+        opacity: .4;
+    }
+
+    to {
+        transform: scale(1.9);
+        opacity: 0;
+    }
+}
+
+@keyframes blastOut {
+    from {
+        transform: scale(0.9);
+        opacity: .4;
+    }
+
+    to {
+        transform: scale(10);
+        opacity: 0;
+    }
+}
+
+.title-chatfxt-redirect {
+    color: white;
+}

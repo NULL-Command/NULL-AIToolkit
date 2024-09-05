@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+  --extension-width: 350px;
+  --extension-height: 400px;
+  --header-height: 45px;
+  --header-background: rgb(0, 0, 0);
+  --link-box-size: 130px;
+  --link-dropdown-height: 30px;
+  --link-dropdown-font-size: 20;
+  --link-dropdown-border-radius: 4px;
+  --icon-button-width: 12px;
+  --icon-button-height: 4px;
+  --icon-border-radius: 40px;
+  --left-icon-move-left: 6px;
+  --icon-move-top: 1px;
+  --items-margin-top: 33px;
+  --items-a-tag-font-size: 11px;
+  --items-a-tag-border-radius: 4px;
+  --items-a-tag-margin-top: 2.5px;
+}
+
+body {
+  background: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: var(--extension-width);
+  height: var(--extension-height);
+}

@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "version": "1.0.0",
+  "version": "0.1.0",
   "name": "FXT AI Toolkit",
   "description": "Unleash the power of AI with the \"FXT AI Toolkit\" extension. Instantly interact with webpage content through summaries or explanations via ChatGPT, transform text into speech swiftly, and connect seamlessly to our ChatFXT AI service with just a click!",
   "content_scripts": [
